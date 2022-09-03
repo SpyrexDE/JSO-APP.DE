@@ -6,7 +6,7 @@ This web app was written by me at the age of 14 to help plan the rehearsal dates
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <samp>&gt; User management (register, login, and edit profiles)</samp><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <samp>&gt; Rehearsal management (add and edit rehearlsals with localtion,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; date, time and affected section)</samp><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <samp>&gt; Only shows those rehearsals the user that is affected by</samp><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <samp>&gt; Only shows those rehearsals the user is affected by</samp><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <samp>&gt; Easy way for users to accept or refuse a date</samp><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <samp>&gt; Overview of commitments and cancellations for conductor and section leaders</samp><br>
 

@@ -1,0 +1,36 @@
+if(count($_SESSION["alerts"]) >= 1){
+    print("    
+    <script src='https://cdn.jsdelivr.net/npm/sweetalert2@9'></script>
+
+    <script>
+        
+        var steps = [");
+
+    for($i = 0; $i < count($_SESSION["alerts"]); ++$i){
+        $title = $_SESSION["alerts"][$i][0];
+        $message = $_SESSION["alerts"][$i][1];
+        $icon = $_SESSION["alerts"][$i][2];
+        print("
+                {
+                    title:'$title',
+                    icon: '$icon',
+                    text: '$message',
+                },
+        ");
+    }
+
+    print("
+        ];
+        
+        swal.setDefaults({
+            confirmButtonText: 'Ok',
+            showCancelButton: false,
+            animation: true
+        });
+
+
+        swal.queue(steps);
+
+        </script>
+    ");
+}

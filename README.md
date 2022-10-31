@@ -15,5 +15,5 @@ This web app was written by me at the age of 14 to help plan the rehearsal dates
 <li>MySQL</li>
 <li>Bootstrap (with BootStrap Studio)</li>
 
-<h2>Why its not further developed</h2>
+<h2>Why it's not further developed</h2>
 Due to my rather sparse experience in web development and programming in general at this time, I did a lot of critical mistakes during development. Therefore, maintaining the app is painful and not worth the time. However I have absolutely no regrets having done this project. It's still my most used ready-to-use real-world application, and developing it has given me invaluable learning experiences.
